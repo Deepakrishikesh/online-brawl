@@ -6,6 +6,7 @@ import platform from "./sprites/platform.png";
 import ladder from "./sprites/ladder.png";
 import { players } from "./multiplayer";
 import { config } from "./config";
+import { k1 } from "./levels";
 
 const k = kaboom(config);
 k.loadSprite("dp", dp);
