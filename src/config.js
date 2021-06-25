@@ -1,6 +1,6 @@
 export let config  = {
-    width: 1280,
-    height: 608,
-    clearColor: [1,1,1,1],
+    width: 1000,
+    height: 508,
+    clearColor: [0,0,0,1],
 }
 
