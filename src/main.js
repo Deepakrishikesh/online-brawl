@@ -1,7 +1,7 @@
 // This is the main triggering script that renders
 // a kaboom.js engine running
 
-import dp from "./sprites/dp.png";
+import dp from "./sprites/sola.png";
 import platform from "./sprites/platform.png";
 import ladder from "./sprites/ladder.png";
 import { players } from "./multiplayer";
@@ -36,7 +36,7 @@ k.scene("main", () => {
     players.forEach(player=>{
         const temp = k.add([
             k.sprite('dp'),
-            k.scale(0.03),
+            k.scale(0.25),
             k.pos(pointer,0),
             k.body({jumpForce: 640,}),
             player,
